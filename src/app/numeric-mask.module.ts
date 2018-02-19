@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { NumericMaskDirective} from './numeric-mask.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    NumericMaskDirective
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
-export class AppModule { }
+export class NumericMaskModule { }
