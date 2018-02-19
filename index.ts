@@ -1,2 +1,2 @@
-export * from './src/numeric-mask.directive';
-export * from './src/numeric-mask.module';
+export {NumericMaskModule} from './src/numeric-mask.module';
+export {NumericMaskDirective} from './src/numeric-mask.directive';
